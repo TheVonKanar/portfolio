@@ -9,14 +9,13 @@ const hero: {
 	description: string;
 	links: Array<{ label: string; href: string; icon: `i-carbon-${string}` }>;
 } = {
-	title: `${BaseData.fullName},`,
+	title: BaseData.fullName,
 	description:
-		'lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+		'Senior Game Developer, experienced in UI and Tools programming and currently looking to work on small-scope games!',
 	links: [
-		{ label: 'GitHub', href: 'https://github.com', icon: 'i-carbon-logo-github' },
-		{ label: 'LinkedIn', href: 'https://linkedin.com', icon: 'i-carbon-logo-linkedin' },
-		{ label: 'Twitter', href: 'https://twitter.com', icon: 'i-carbon-logo-twitter' },
-		{ label: 'Email', href: 'mailto:riadh.adrani@pm.me', icon: 'i-carbon-at' }
+		{ label: 'GitHub', href: 'https://github.com/TheVonKanar', icon: 'i-carbon-logo-github' },
+		{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/thibault-eynard-37128144/', icon: 'i-carbon-logo-linkedin' },
+		{ label: 'Email', href: 'mailto:thibault.eynard@pm.me', icon: 'i-carbon-at' }
 	]
 };
 
