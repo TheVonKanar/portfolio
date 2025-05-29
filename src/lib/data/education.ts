@@ -5,28 +5,16 @@ const title = 'Education';
 
 const items: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
-		description: '',
-		location: 'Tunisia',
-		logo: Assets.Unknown,
+		degree: "Game Design & Programming",
+		description: 'The course was initially done in 3 years, and it taught me the basics of indie game development across a great variety of technologies, from early Javascript game frameworks, to Flash and finally Unity. Aside from programming, we learned the basics of Game Art, Game Design and sound design, in order to be able to develop games by ourselves or in small teams.<br/>I graduated as the top of my class, with what we call "mention bien" in French.',
+		location: 'Paris, France',
+		logo: Assets.ISART,
 		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
-		shortDescription: '',
+		organization: 'ISART Digital',
+		period: { from: new Date(2012, 8, 1), to: new Date(2015, 8, 1) },
+		shortDescription: "Level 7 RNCP - Master's Degree",
 		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
-	},
-	{
-		degree: 'PhD of Computer Science',
-		description: '',
-		location: 'USA',
-		logo: Assets.Unknown,
-		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
-		shortDescription: '',
-		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		subjects: ['Unity', 'C#', 'JS', 'HTML', 'CSS', 'English', 'Gameplay Programming', 'Game Design', 'Algorithm', 'Algebra']
 	}
 ];
 

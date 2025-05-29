@@ -15,6 +15,7 @@ const Assets = {
 	CSS: asset('css.svg'),
 	France: asset('france.svg'),
 	HTML: asset('html.svg'),
+	ISART: asset('isart.jpg'),
 	JavaScript: asset('js.png'),
 	NodeJs: asset('node.png'),
 	Persistant: asset('persistant.png', 'persistant-dark.png'),
