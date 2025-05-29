@@ -7,8 +7,9 @@ import svelteMd from './md/svelte.md?raw';
 const defineSkillCategory = <S extends string>(data: SkillCategory<S>): SkillCategory<S> => data;
 
 const categories = [
-	defineSkillCategory({ name: 'Programming Languages', slug: 'pro-lang' }),
 	defineSkillCategory({ name: 'Game Engines', slug: 'game-engine' }),
+	defineSkillCategory({ name: 'Programming Languages', slug: 'pro-lang' }),
+	defineSkillCategory({ name: 'Markup & Style', slug: 'markup-style' }),
 	defineSkillCategory({ name: 'Frameworks', slug: 'framework' }),
 	defineSkillCategory({ name: 'Languages', slug: 'lang' }),
 	defineSkillCategory({ name: 'Design', slug: 'design' }),
@@ -74,6 +75,15 @@ const title = 'Skills';
 
 const items = [
 	defineSkill({
+		slug: 'unity',
+		color: 'grey',
+		description:
+			'TBD',
+		logo: Assets.Unity,
+		name: 'Unity',
+		category: 'game-engine'
+	}),
+	defineSkill({
 		slug: 'csharp',
 		color: 'purple',
 		description:
@@ -91,14 +101,57 @@ const items = [
 		name: 'Rust',
 		category: 'pro-lang'
 	}),
-	defineSkill({
-		slug: 'unity',
-		color: 'grey',
+		defineSkill({
+		slug: 'ts',
+		color: 'blue',
 		description:
 			'TBD',
-		logo: Assets.Unity,
-		name: 'Unity',
-		category: 'game-engine'
+		logo: Assets.TypeScript,
+		name: 'TypeScript',
+		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'js',
+		color: 'yellow',
+		description:
+			'TBD',
+		logo: Assets.JavaScript,
+		name: 'JavaScript',
+		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'html',
+		color: 'orange',
+		description:
+			'TBD',
+		logo: Assets.HTML,
+		name: 'HTML',
+		category: 'markup-style'
+	}),
+	defineSkill({
+		slug: 'css',
+		color: 'blue',
+		description:
+			'TBD',
+		logo: Assets.CSS,
+		name: 'CSS',
+		category: 'markup-style'
+	}),
+	defineSkill({
+		slug: 'french',
+		color: 'blue',
+		description: 'Native language. Lived in France most of my life',
+		logo: Assets.France,
+		name: 'French',
+		category: 'lang'
+	}),
+	defineSkill({
+		slug: 'english',
+		color: 'red',
+		description: 'Fluent. lived in New Zealand for a year travelling. Had the opportunity to work in english at some points during my time at Amplitude Studios.',
+		logo: Assets.UK,
+		name: 'English',
+		category: 'lang'
 	})
 ] as const;
 
