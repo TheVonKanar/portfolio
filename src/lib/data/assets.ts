@@ -7,6 +7,7 @@ const asset = (lightFilename: string, darkFilename = lightFilename) => {
 };
 
 const Assets = {
+	Amplitude: asset('amplitude.jpg'),
 	Android: asset('android.png'),
 	C: asset('c.svg'),
 	Cpp: asset('cpp.svg'),
@@ -15,6 +16,8 @@ const Assets = {
 	HTML: asset('html.svg'),
 	JavaScript: asset('js.png'),
 	NodeJs: asset('node.png'),
+	Persistant: asset('persistant.png', 'persistant-dark.png'),
+	Procheo: asset('procheo.jpg'),
 	Python: asset('python.png'),
 	Rust: asset('rust.svg'),
 	Svelte: asset('svelte.svg'),
