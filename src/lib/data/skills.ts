@@ -138,6 +138,14 @@ const items = [
 		category: 'markup-style'
 	}),
 	defineSkill({
+		slug: 'figma',
+		color: 'blue',
+		description: '',
+		logo: Assets.Figma,
+		name: 'Figma',
+		category: 'design'
+	}),
+	defineSkill({
 		slug: 'french',
 		color: 'blue',
 		description: 'Native language. Lived in France most of my life',

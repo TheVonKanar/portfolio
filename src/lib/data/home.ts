@@ -19,7 +19,7 @@ const hero: {
 	]
 };
 
-const carousel: Array<Skill> = getSkills();
+const carousel: Array<Skill> = getSkills('unity', 'csharp', 'figma');
 
 const HomeData = {
 	title,

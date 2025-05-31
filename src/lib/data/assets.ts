@@ -13,6 +13,7 @@ const Assets = {
 	Cpp: asset('cpp.svg'),
 	Csharp: asset('csharp.svg'),
 	CSS: asset('css.svg'),
+	Figma: asset('figma.svg'),
 	France: asset('france.svg'),
 	HTML: asset('html.svg'),
 	ISART: asset('isart.jpg'),
