@@ -1,6 +1,7 @@
 <script lang="ts">
 	import EmptyResult from '$lib/components/common/empty-result/empty-result.svelte';
 	import SearchPage from '$lib/components/common/search-page/search-page.svelte';
+	import { CardDescription } from '$lib/components/ui/card';
 	import CardContent from '$lib/components/ui/card/card-content.svelte';
 	import CardTitle from '$lib/components/ui/card/card-title.svelte';
 	import FancyCard from '$lib/components/ui/card/fancy-card.svelte';
@@ -36,10 +37,10 @@
 							<FancyCard
 								bgImg={$mode === 'light' ? item.logo.light : item.logo.dark}
 								color={item.color}
-								href={href(`/skills/${item.slug}`)}
 							>
 								<CardContent>
 									<CardTitle>{item.name}</CardTitle>
+									<CardDescription>{item.shortDescription}</CardDescription>
 								</CardContent>
 							</FancyCard>
 						{/each}

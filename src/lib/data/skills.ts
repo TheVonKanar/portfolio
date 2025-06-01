@@ -10,9 +10,8 @@ const categories = [
 	defineSkillCategory({ name: 'Game Engines', slug: 'game-engine' }),
 	defineSkillCategory({ name: 'Programming Languages', slug: 'pro-lang' }),
 	defineSkillCategory({ name: 'Markup & Style', slug: 'markup-style' }),
-	defineSkillCategory({ name: 'Frameworks', slug: 'framework' }),
+	defineSkillCategory({ name: 'Tools', slug: 'tool' }),
 	defineSkillCategory({ name: 'Languages', slug: 'lang' }),
-	defineSkillCategory({ name: 'Design', slug: 'design' }),
 	defineSkillCategory({ name: 'Soft Skills', slug: 'soft' })
 ] as const;
 
@@ -75,91 +74,124 @@ const title = 'Skills';
 
 const items = [
 	defineSkill({
+		category: 'game-engine',
 		slug: 'unity',
-		color: 'grey',
-		description:
-			'TBD',
-		logo: Assets.Unity,
 		name: 'Unity',
-		category: 'game-engine'
+		shortDescription: 'Expert',
+		logo: Assets.Unity,
+		color: 'grey',
 	}),
 	defineSkill({
+		category: 'pro-lang',
 		slug: 'csharp',
-		color: 'purple',
-		description:
-			'TBD',
-		logo: Assets.Csharp,
 		name: 'C#',
-		category: 'pro-lang'
+		shortDescription: 'Expert',
+		logo: Assets.Csharp,
+		color: 'purple',
 	}),
 	defineSkill({
+		category: 'pro-lang',
 		slug: 'rust',
-		color: 'orange',
-		description:
-			'TBD',
-		logo: Assets.Rust,
 		name: 'Rust',
-		category: 'pro-lang'
-	}),
-		defineSkill({
-		slug: 'ts',
-		color: 'blue',
-		description:
-			'TBD',
-		logo: Assets.TypeScript,
-		name: 'TypeScript',
-		category: 'pro-lang'
-	}),
-	defineSkill({
-		slug: 'js',
-		color: 'yellow',
-		description:
-			'TBD',
-		logo: Assets.JavaScript,
-		name: 'JavaScript',
-		category: 'pro-lang'
-	}),
-	defineSkill({
-		slug: 'html',
+		shortDescription: 'Intermediate',
+		logo: Assets.Rust,
 		color: 'orange',
-		description:
-			'TBD',
-		logo: Assets.HTML,
+	}),
+	defineSkill({
+		category: 'pro-lang',
+		slug: 'ts',
+		name: 'TypeScript',
+		shortDescription: 'Intermediate',
+		logo: Assets.TypeScript,
+		color: 'blue',
+	}),
+	defineSkill({
+		category: 'pro-lang',
+		slug: 'js',
+		name: 'JavaScript',
+		shortDescription: 'Intermediate',
+		logo: Assets.JavaScript,
+		color: 'yellow',
+	}),
+	defineSkill({
+		category: 'markup-style',
+		slug: 'html',
 		name: 'HTML',
-		category: 'markup-style'
+		shortDescription: 'Intermediate',
+		logo: Assets.HTML,
+		color: 'orange',
 	}),
 	defineSkill({
+		category: 'markup-style',
 		slug: 'css',
-		color: 'blue',
-		description:
-			'TBD',
-		logo: Assets.CSS,
 		name: 'CSS',
-		category: 'markup-style'
+		shortDescription: 'Intermediate',
+		logo: Assets.CSS,
+		color: 'blue',
 	}),
 	defineSkill({
+		category: 'tool',
+		slug: 'rider',
+		name: 'Rider',
+		shortDescription: 'Expert',
+		logo: Assets.Rider,
+		color: 'yellow',
+	}),
+	defineSkill({
+		category: 'tool',
+		slug: 'vs',
+		name: 'Visual Studio',
+		shortDescription: 'Expert',
+		logo: Assets.VisualStudio,
+		color: 'purple',
+	}),
+	defineSkill({
+		category: 'tool',
 		slug: 'figma',
-		color: 'blue',
-		description: '',
-		logo: Assets.Figma,
 		name: 'Figma',
-		category: 'design'
+		shortDescription: 'Advanced',
+		logo: Assets.Figma,
+		color: 'pink',
 	}),
 	defineSkill({
+		category: 'tool',
+		slug: 'fork',
+		name: 'Fork',
+		shortDescription: 'Expert',
+		logo: Assets.Fork,
+		color: 'lightblue',
+	}),
+	defineSkill({
+		category: 'tool',
+		slug: 'gitlab',
+		name: 'GitLab',
+		shortDescription: 'Advanced',
+		logo: Assets.GitLab,
+		color: 'orange',
+	}),
+	defineSkill({
+		category: 'tool',
+		slug: 'github',
+		name: 'GitHub',
+		shortDescription: 'Advanced',
+		logo: Assets.GitHub,
+		color: 'purple',
+	}),
+	defineSkill({
+		category: 'lang',
 		slug: 'french',
-		color: 'blue',
-		description: 'Native language. Lived in France most of my life',
-		logo: Assets.France,
 		name: 'French',
-		category: 'lang'
+		shortDescription: 'Native',
+		logo: Assets.France,
+		color: 'blue',
 	}),
 	defineSkill({
+		category: 'lang',
 		slug: 'english',
-		color: 'red',
-		description: 'Fluent. lived in New Zealand for a year travelling. Had the opportunity to work in english at some points during my time at Amplitude Studios.',
-		logo: Assets.UK,
 		name: 'English',
-		category: 'lang'
+		shortDescription: 'Fluent',
+		logo: Assets.UK,
+		color: 'red',
 	})
 ] as const;
 

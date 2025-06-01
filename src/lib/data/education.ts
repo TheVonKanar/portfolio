@@ -14,7 +14,7 @@ const items: Array<Education> = [
 		period: { from: new Date(2012, 8, 1), to: new Date(2015, 8, 1) },
 		shortDescription: "Level 7 RNCP - Master's Degree",
 		slug: 'dummy-education-item',
-		subjects: ['Unity', 'C#', 'JS', 'HTML', 'CSS', 'English', 'Gameplay Programming', 'Game Design', 'Algorithm', 'Algebra']
+		subjects: ['Unity', 'C#', 'JS', 'HTML', 'CSS', 'English', 'Gameplay Programming', 'Game Design' ]
 	}
 ];
 

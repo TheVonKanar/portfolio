@@ -25,7 +25,7 @@ export type Asset = { light: string; dark: string };
 
 export type Screenshot = {
 	src: string;
-	label: string;
+	label?: string;
 };
 
 export interface Item<S extends string = string> {
@@ -52,7 +52,7 @@ export interface SkillCategory<S extends string = string> {
 	name: string;
 }
 
-export interface Skill<S extends string = string> extends Omit<Item<S>, 'shortDescription'> {
+export interface Skill<S extends string = string> extends Omit<Item<S>, 'description'> {
 	color: string;
 	category?: SkillCategory;
 }
