@@ -5,24 +5,26 @@ import type { Project } from './types';
 const items: Array<Project> = [
 	{
 		slug: 'unannounced-game',
-		color: '#5e95e3',
+		color: 'lightblue',
 		description:
 			'### Contribution\n' +
-			'I worked on REDACTED during pre-production and production as part of the UI Programming Team. My major contributions includes major reworks and improvements of our internal Frameworks (both UI and Gameplay), the creation of an in-engine design system, the integration of wireframe and final screens, and the development of a debugging overlay tool. Occasionaly did some gameplay and tools programming.',
+			'I worked on **REDACTED** during pre-production and production as part of the UI Programming Team. My major contributions includes major reworks and improvements of our internal Frameworks (both UI and Gameplay), the creation of an in-engine design system, the integration of wireframe and final screens, and the development of a debugging overlay tool. Occasionaly did some gameplay and tools programming.',
 		shortDescription:
-			'New Amplitude Studios game, yet to be revealed',
-		links: [],
+			'New Amplitude Studios game, yet to be revealed!',
+		links: [
+			{ to: 'https://www.amplitude-studios.com/', label: 'Website' },
+		],
 		logo: Assets.Unknown,
 		name: 'Unannounced Game',
 		period: {
 			from: new Date(2024, 9)
 		},
-		skills: getSkills('unity', 'csharp'),
+		skills: getSkills('unity', 'csharp', 'figma'),
 		type: 'Video Game'
 	},
 	{
 		slug: 'endless-legend-2',
-		color: '#5e95e3',
+		color: 'red',
 		description:
 			'### Description\n' + 
 			'Endless Legend 2 is a fantasy turn-based strategy game set in the Endless Universe. Lead unique factions, dominate world-changing tidefalls, write your legend and unveil the secrets of a dreamlike ocean-planet on the verge of extinction.\n' +
@@ -38,12 +40,12 @@ const items: Array<Project> = [
 		period: {
 			from: new Date(2023, 9), to: new Date(2024, 9)
 		},
-		skills: getSkills('unity', 'csharp'),
-		type: 'Video Game'
+		skills: getSkills('unity', 'csharp', 'figma'),
+		type: 'Strategy Game'
 	},
 	{
 		slug: 'endless-dungeon',
-		color: '#ff3e00',
+		color: 'gold',
 		description:
 			'TBD',
 		shortDescription:
@@ -56,8 +58,8 @@ const items: Array<Project> = [
 		period: {
 			from: new Date(2019, 1), to: new Date(2023, 1)
 		},
-		skills: getSkills('unity', 'csharp'),
-		type: 'Video Game',
+		skills: getSkills('unity', 'csharp', 'figma'),
+		type: 'Roguelite Action Game',
 		screenshots: [
 			{
 				src: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1485590/ss_dadabe2ab9369e8cc263cb9d2341f3e53c0e0c3d.1920x1080.jpg?t=1748510886'

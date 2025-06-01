@@ -178,6 +178,22 @@ const items = [
 		color: 'purple',
 	}),
 	defineSkill({
+		category: 'tool',
+		slug: 'jira',
+		name: 'Jira',
+		shortDescription: 'Advanced',
+		logo: Assets.Jira,
+		color: 'lightblue',
+	}),
+	defineSkill({
+		category: 'tool',
+		slug: 'confluence',
+		name: 'Confluence',
+		shortDescription: 'Advanced',
+		logo: Assets.Confluence,
+		color: 'lightblue',
+	}),
+	defineSkill({
 		category: 'lang',
 		slug: 'french',
 		name: 'French',

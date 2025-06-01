@@ -107,7 +107,7 @@
 				var(--card-color) 60%,
 				var(--card-color-30) 100%
 			),
-			no-repeat right 40% / 40% var(--bg-img);
+			no-repeat right 40% / 40%;
 	}
 
 	.card:hover {

@@ -38,10 +38,15 @@
 								bgImg={$mode === 'light' ? item.logo.light : item.logo.dark}
 								color={item.color}
 							>
-								<CardContent>
-									<CardTitle>{item.name}</CardTitle>
-									<CardDescription>{item.shortDescription}</CardDescription>
-								</CardContent>
+								<div class="flex flex-row gap-4">
+									<CardContent class="p-4 pr-0">
+										<div class="card-icon w-[38px] h-[38px]">
+									</CardContent>
+									<CardContent class="p-4 pl-0">
+										<CardTitle>{item.name}</CardTitle>
+										<CardDescription>{item.shortDescription}</CardDescription>
+									</CardContent>
+								</div>
 							</FancyCard>
 						{/each}
 					</div>
@@ -50,3 +55,11 @@
 		</div>
 	{/if}
 </SearchPage>
+
+<style>
+	.card-icon {
+		background-image: var(--bg-img);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+</style>
