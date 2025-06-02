@@ -14,10 +14,10 @@ const items: Array<Project> = [
 		links: [
 			{ to: 'https://www.amplitude-studios.com/', label: 'Website' },
 		],
-		logo: Assets.Unknown,
+		logo: Assets.UnannouncedGame,
 		name: 'Unannounced Game',
 		period: {
-			from: new Date(2024, 9)
+			from: new Date(2024, 6)
 		},
 		skills: getSkills('unity', 'csharp', 'figma'),
 		type: 'Video Game'
@@ -38,7 +38,7 @@ const items: Array<Project> = [
 		logo: Assets.EndlessLegend2,
 		name: 'Endless Legend 2',
 		period: {
-			from: new Date(2023, 9), to: new Date(2024, 9)
+			from: new Date(2023, 8), to: new Date(2024, 6)
 		},
 		skills: getSkills('unity', 'csharp', 'figma'),
 		type: 'Strategy Game'
@@ -56,7 +56,7 @@ const items: Array<Project> = [
 		logo: Assets.EndlessDungeon,
 		name: 'Endless Dungeon',
 		period: {
-			from: new Date(2019, 1), to: new Date(2023, 1)
+			from: new Date(2019, 6), to: new Date(2022, 8)
 		},
 		skills: getSkills('unity', 'csharp', 'figma'),
 		type: 'Roguelite Action Game',

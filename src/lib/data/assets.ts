@@ -38,6 +38,7 @@ const Assets = {
 	Tailwind: asset('tailwind.svg'),
 	TypeScript: asset('ts.svg'),
 	UK: asset('uk.svg'),
+	UnannouncedGame: asset('unannounced-game.svg', 'unannounced-game-dark.svg'),
 	Unity: asset('unity.svg', 'unity-dark.svg'),
 	Vite: asset('vite.png'),
 	VisualStudio: asset('vs.svg'),
