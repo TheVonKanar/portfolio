@@ -82,6 +82,14 @@ const items = [
 		color: 'grey',
 	}),
 	defineSkill({
+		category: 'game-engine',
+		slug: 'pico-8',
+		name: 'Pico-8',
+		shortDescription: 'Intermediate',
+		logo: Assets.Pico8,
+		color: 'pink',
+	}),
+	defineSkill({
 		category: 'pro-lang',
 		slug: 'csharp',
 		name: 'C#',
