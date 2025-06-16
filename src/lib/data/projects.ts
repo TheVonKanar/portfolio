@@ -41,7 +41,21 @@ const items: Array<Project> = [
 			from: new Date(2023, 8), to: new Date(2024, 6)
 		},
 		skills: getSkills('unity', 'csharp', 'figma'),
-		type: 'Strategy Game'
+		type: 'Strategy Game',
+		screenshots: [
+			{
+				src:"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3407390/77aac6e62704b6de4b694d3863d8385226729aab/ss_77aac6e62704b6de4b694d3863d8385226729aab.1920x1080.jpg?t=1749415368"
+			},
+			{
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3407390/bc5098357a752fb60ae51a19b6add699295156c1/ss_bc5098357a752fb60ae51a19b6add699295156c1.1920x1080.jpg?t=1749415368"
+			},
+			{
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3407390/fad955098969a9c49431d6e19b033b5db270c3a7/ss_fad955098969a9c49431d6e19b033b5db270c3a7.1920x1080.jpg?t=1749415368"
+			},
+			{
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3407390/d64992db99497ba748843e33f6bc0ed64cf4686b/ss_d64992db99497ba748843e33f6bc0ed64cf4686b.1920x1080.jpg?t=1749415368"
+			}
+		]
 	},
 	{
 		slug: 'make-me-8',
@@ -63,7 +77,12 @@ const items: Array<Project> = [
 			from: new Date(2024, 0, 26), to: new Date(2024, 0, 28)
 		},
 		skills: getSkills('pico-8'),
-		type: 'Word Game'
+		type: 'Word Game',
+		screenshots: [
+			{
+				src: "https://ggjv4.s3.us-west-1.amazonaws.com/files/styles/sidebar_full/s3/games/2024/71783/featured/makeme.p8_1.png?VersionId=XcAPPvUJlHMJW8YjconfgYcU79rXpqwZ&itok=DHKx2cBL"
+			}
+		]
 	},
 	{
 		slug: 'endless-dungeon',
@@ -120,7 +139,21 @@ const items: Array<Project> = [
 			from: new Date(2019, 3), to: new Date(2019, 6)
 		},
 		skills: getSkills('unity', 'csharp'),
-		type: 'Strategy Game'
+		type: 'Strategy Game',
+		screenshots: [
+			{
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1124300/ss_ada8d1a3fcf57994cfad1c237264c13fe37c23f3.1920x1080.jpg?t=1737652199"
+			},
+			{
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1124300/ss_6cdeee8093d7732974959f94111cf9461e2d752b.1920x1080.jpg?t=1737652199"
+			},
+			{
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1124300/ss_54ea5a275b7780b72efc7197425f9ff70c6bb15a.1920x1080.jpg?t=1737652199"
+			},
+			{
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1124300/ss_abb2a8b2f5934f7d10c9683ff48e4a2e971cfaa2.1920x1080.jpg?t=1737652199"
+			}
+		]
 	},
 	{
 		slug: 'endless-space-2',
@@ -142,7 +175,33 @@ const items: Array<Project> = [
 			from: new Date(2016, 1), to: new Date(2019, 3)
 		},
 		skills: getSkills('unity', 'csharp'),
-		type: 'Strategy Game'
+		type: 'Strategy Game',
+		screenshots: [
+			{
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/392110/ss_91916bce22411f9a2a6be5b88513850cce54c74e.1920x1080.jpg?t=1728046125"
+			},
+			{
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/392110/ss_90343936aa9a7194adda5c0eabf37c38b365b2e7.1920x1080.jpg?t=1728046125"
+			},
+			{
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/392110/ss_92993a0d6df637d2bf516d78c98d124a752f3870.1920x1080.jpg?t=1728046125"
+			},
+			{
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/392110/ss_daf6b11ef3c7995932165ce79c4481cc5a47b3e8.1920x1080.jpg?t=1728046125"
+			},
+			{
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/392110/ss_e56ae420c2c5e80397e2f595412c97ae27b43adb.1920x1080.jpg?t=1728046125"
+			},
+			{
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/392110/ss_6a4d548c474bb7788f3c0eda9fa7831e9f41b0fb.1920x1080.jpg?t=1728046125"
+			},
+			{
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/392110/ss_448d0cbdcf0385d412ed07cc5a4b22b25cd6c664.1920x1080.jpg?t=1728046125"
+			},
+			{
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/392110/ss_448d0cbdcf0385d412ed07cc5a4b22b25cd6c664.1920x1080.jpg?t=1728046125"
+			}
+		]
 	},
 	{
 		slug: 'endless-legend',
@@ -163,7 +222,27 @@ const items: Array<Project> = [
 			from: new Date(2015, 7), to: new Date(2016, 1)
 		},
 		skills: getSkills('unity', 'csharp'),
-		type: 'Strategy Game'
+		type: 'Strategy Game',
+		screenshots: [
+			{
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/451050/ss_0c6d612e603972dc9fb419342188dfe794d41d22.1920x1080.jpg?t=1712760629"
+			},
+			{
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/451050/ss_4f1234f33f38ebb372a7731f9471787e8b3b8bc5.1920x1080.jpg?t=1712760629"
+			},
+			{
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/289130/ss_ec8df411b2dd4000c57936e640a9d3d9b9c91c57.1920x1080.jpg?t=1728045983"
+			},
+			{
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/289130/ss_bfbd8c33435de3ee8444a6e2e04d15a3534bf45e.1920x1080.jpg?t=1728045983"
+			},
+			{
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/289130/ss_b95e6eb04b7bf6580991f7a0a6c969e1dd0b0a05.1920x1080.jpg?t=1728045983"
+			},
+			{
+				src: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/289130/ss_17e540400c4fc14aba8591a43bc08882dd6f63d5.1920x1080.jpg?t=1728045983"
+			}
+		]
 	}
 ];
 
